@@ -20,7 +20,7 @@ public class CalculatorTest {
 	@Test
 	public void testAdd() {
 		Calculator calc = new Calculator();
-		assertEquals(calc.add(1, 1), 2);
+		assertEquals(calc.add(1, 5), 2);
 	}
 	@Test
 	public void testSub() {
@@ -35,7 +35,7 @@ public class CalculatorTest {
 	@Test
 	public void testDiv() {
 		Calculator calc = new Calculator();
-		assertEquals(calc.div(9, 2), 4);
+		assertEquals(calc.div(8, 2), 4);
 	}
 
 }

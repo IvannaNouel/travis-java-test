@@ -30,7 +30,7 @@ public class CalculatorTest {
 	@Test
 	public void testMul() {
 		Calculator calc = new Calculator();
-		assertEquals(calc.mul(3, 5), 15);
+		assertEquals(calc.mul(5, 5), 25);
 	}
 	@Test
 	public void testDiv() {
